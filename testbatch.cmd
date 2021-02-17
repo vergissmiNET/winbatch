@@ -1,3 +1,3 @@
 @echo off
 dir c:\ > dir.txt
-tar -x -f dir.zip
+tar.exe -a -c -f zipped-dir.zip dir.txt
